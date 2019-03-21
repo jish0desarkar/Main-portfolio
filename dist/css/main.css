@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+nav {
+  width: 23vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  text-align: center;
+  background: #df5c05;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center; }
+  nav li {
+    list-style: none;
+    line-height: 1.5rem !important; }
+  nav a {
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5rem !important;
+    margin: 2rem;
+    font-size: 2.5rem;
+    font-family: "Ubuntu", sans-serif; }
+    nav a:hover {
+      cursor: pointer;
+      color: white; }
+    nav a.active {
+      color: white; }
+
+.bio {
+  display: inline-block;
+  margin-left: 27vw;
+  margin-top: 20vh; }
+  .bio .name {
+    font-size: 10rem;
+    letter-spacing: 3px !important;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 900;
+    margin-bottom: 0;
+    padding: 0; }
+  .bio .addr {
+    margin-top: 0rem !important;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(0, 0, 0, 0.5); }
+  .bio .para {
+    margin-top: 8vh;
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.5); }
+
+span {
+  color: #df5c05; }
+
+.footer {
+  margin-left: 27vw;
+  margin-top: 7vh;
+  margin-left: 50vw;
+  color: rgba(0, 0, 0, 0.5); }
+  .footer i {
+    margin-right: 1.5vw; }
+    .footer i:hover {
+      color: #df5c05;
+      cursor: pointer; }
+
+.xp {
+  display: inline-block;
+  margin-left: 28vw;
+  margin-top: 10vh;
+  margin-bottom: 20vh; }
+  .xp .xp-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 8rem;
+    font-weight: 600; }
+  .xp .xp-details .xp-subheading {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3rem;
+    margin-top: 8vh;
+    font-weight: 700; }
+  .xp .xp-details .org {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    margin-top: 1.5vh;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7); }
+  .xp .xp-details .dur {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: #bd5050;
+    font-size: 2rem;
+    margin-top: 1.5vh; }
+  .xp .xp-details .details {
+    width: 60vw;
+    font-family: "ZCOOL XiaoWei", serif;
+    margin-top: 5vh;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    line-height: 50px;
+    letter-spacing: 2px; }
