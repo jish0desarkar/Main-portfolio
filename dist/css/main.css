@@ -100,3 +100,55 @@ span {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.5rem;
     letter-spacing: 2px; }
+
+.skills {
+  margin-left: 28vw;
+  display: inline-block;
+  margin-top: 10vh; }
+  .skills .skills-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    margin-bottom: 3vh;
+    font-size: 6rem;
+    font-weight: 600; }
+  .skills .skill-subheading {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    margin-top: 8vh;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5); }
+  .skills .skill-details {
+    display: flex;
+    margin-top: 3vh;
+    line-height: 0 !important;
+    padding: 0 !important;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 5rem; }
+    .skills .skill-details .skill-items {
+      margin-right: 30px;
+      margin-bottom: 5vh; }
+    .skills .skill-details :hover {
+      color: #df5c05;
+      cursor: pointer; }
+  .skills .language {
+    display: flex;
+    font-family: "ZCOOL XiaoWei", serif;
+    margin-top: 5vh;
+    padding-bottom: 8vh;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem; }
+    .skills .language .lang-itmes {
+      display: inline-block;
+      margin-right: 20px; }
+
+.contact-div {
+  margin-left: 28vw;
+  display: inline-block;
+  margin-top: 10vh; }
+  .contact-div .contact-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    margin-bottom: 3vh;
+    font-size: 6rem;
+    font-weight: 600;
+    letter-spacing: 2px; }
+  .contact-div .email {
+    font-family: "Ubuntu", sans-serif; }

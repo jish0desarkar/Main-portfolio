@@ -123,6 +123,7 @@ span
             font-family: $subheading-font;
             font-size: 2rem;
             margin-top: 8vh;
+
             font-weight: 700;
 
         }
@@ -154,5 +155,83 @@ span
 
         }
         
+    }
+}
+
+
+//SKILLS
+
+.skills{
+    margin-left: 28vw;
+    display: inline-block;
+    margin-top: 10vh;
+
+    .skills-heading{
+        font-family: $header-font;
+        margin-bottom: 3vh;
+        font-size: 6rem;
+        font-weight: 600;
+    }
+
+    .skill-subheading{
+        font-family: $subheading-font;
+        font-size: 2rem;
+        margin-top: 8vh;
+        font-weight: 700;
+        color: rgba($color: black, $alpha: .5);
+    }
+
+    .skill-details{
+        display: flex;
+        margin-top: 3vh;
+        line-height: 0 !important;
+        padding: 0 !important;
+        color: rgba($color: black, $alpha: .5);
+        font-size: 5rem;
+
+        .skill-items{
+             margin-right: 30px;    
+            margin-bottom: 5vh;
+        }
+        :hover{
+            color: $primary-color;
+            cursor: pointer;
+        }
+
+    }
+
+    .language{
+            display: flex;    
+            font-family: $text-font;
+            margin-top: 5vh;
+            padding-bottom: 8vh;
+            color: rgba($color: black, $alpha: .5);
+            font-size: 1.5rem;
+
+            .lang-itmes{
+                display: inline-block;
+                margin-right: 20px;
+            }
+    }
+
+}
+
+//CONTACT
+
+.contact-div{
+    margin-left: 28vw;
+    display: inline-block;
+    margin-top: 10vh;
+
+    .contact-heading{
+        font-family: $header-font;
+        margin-bottom: 3vh;
+        font-size: 6rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    
+    .email{
+        font-family: $subheading-font;
     }
 }
