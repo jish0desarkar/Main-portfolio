@@ -20,9 +20,8 @@ nav {
     display: inline-block;
     text-decoration: none !important;
     color: rgba(255, 255, 255, 0.7);
-    line-height: 1.5rem !important;
-    margin: 2rem;
-    font-size: 2.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
     font-family: "Ubuntu", sans-serif; }
     nav a:hover {
       cursor: pointer;
@@ -33,7 +32,7 @@ nav {
 .bio {
   display: inline-block;
   margin-left: 27vw;
-  margin-top: 20vh; }
+  margin-top: 18vh; }
   .bio .name {
     font-size: 10rem;
     letter-spacing: 3px !important;
@@ -74,30 +73,30 @@ span {
   margin-bottom: 20vh; }
   .xp .xp-heading {
     font-family: "Saira Extra Condensed", sans-serif;
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 600; }
   .xp .xp-details .xp-subheading {
     font-family: "Ubuntu", sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 8vh;
     font-weight: 700; }
   .xp .xp-details .org {
     font-family: "Ubuntu", sans-serif;
-    font-size: 2.5rem;
-    margin-top: 1.5vh;
+    font-size: 1.5rem;
+    margin-top: 1vh;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.7); }
   .xp .xp-details .dur {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     color: #bd5050;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1.5vh; }
   .xp .xp-details .details {
     width: 60vw;
     font-family: "ZCOOL XiaoWei", serif;
     margin-top: 5vh;
+    padding-bottom: 8vh;
     color: rgba(0, 0, 0, 0.5);
-    font-size: 2rem;
-    line-height: 50px;
+    font-size: 1.5rem;
     letter-spacing: 2px; }

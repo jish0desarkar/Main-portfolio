@@ -33,9 +33,8 @@ nav{
         display: inline-block;
         text-decoration: none !important;
         color: rgba($color: white, $alpha: .7);
-        line-height: 1.5rem !important;
-        margin: 2rem;
-        font-size: 2.5rem;
+        margin: 1rem;
+        font-size: 1.5rem;
         font-family: $subheading-font;
         &:hover{
             cursor: pointer;
@@ -52,7 +51,7 @@ nav{
 .bio{
     display: inline-block;
     margin-left: 27vw;
-    margin-top: 20vh;
+    margin-top: 18vh;
     
     .name{
         font-size: 10rem;
@@ -116,13 +115,13 @@ span
 
     .xp-heading{
         font-family: $header-font;
-        font-size: 8rem;
+        font-size: 6rem;
         font-weight: 600;
     }
     .xp-details{
         .xp-subheading{
             font-family: $subheading-font;
-            font-size: 3rem;
+            font-size: 2rem;
             margin-top: 8vh;
             font-weight: 700;
 
@@ -130,8 +129,8 @@ span
 
         .org{
             font-family: $subheading-font;
-            font-size: 2.5rem;
-            margin-top: 1.5vh;
+            font-size: 1.5rem;
+            margin-top: 1vh;
             font-weight: 500;
             color: rgba($color: black, $alpha: .7);
         }
@@ -140,7 +139,7 @@ span
             font-family: 'Courier New', Courier, monospace;
             font-weight: 500;
             color: $duration_color;
-            font-size: 2rem;
+            font-size: 1.5rem;
             margin-top: 1.5vh;
         }
 
@@ -148,9 +147,9 @@ span
             width: 60vw;    
             font-family: $text-font;
             margin-top: 5vh;
+            padding-bottom: 8vh;
             color: rgba($color: black, $alpha: .5);
-            font-size: 2rem;
-            line-height: 50px;
+            font-size: 1.5rem;
             letter-spacing: 2px;
 
         }
