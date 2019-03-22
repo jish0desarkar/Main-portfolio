@@ -9,9 +9,18 @@ $subheading-font: 'Ubuntu', sans-serif;
     padding: 0;
     margin: 0;   
 }
-
-
 //NAVBAR
+
+//ANIMATION
+
+.animated.delay{
+    @for $i from 1 through 10{
+        &:nth-child(#{$i}){
+    -webkit-animation-delay: #{$i * .1}s;
+    animation-delay: #{$i * .1}s;
+        }
+    }
+}
 
 nav{
     width: 23vw;
@@ -52,8 +61,10 @@ nav{
     display: inline-block;
     margin-left: 27vw;
     margin-top: 18vh;
+    overflow-x: hidden;
     
     .name{
+        
         font-size: 10rem;
         letter-spacing: 3px !important;
         font-family: $header-font;
@@ -225,7 +236,7 @@ span
 
     .contact-heading{
         font-family: $header-font;
-        margin-bottom: 3vh;
+        margin-bottom: 12vh;
         font-size: 6rem;
         font-weight: 600;
         letter-spacing: 2px;
@@ -233,5 +244,19 @@ span
     
     .email{
         font-family: $subheading-font;
+        color: rgba($color: black, $alpha: .5);
+        margin-bottom: 7vh;
+        font-size: 2rem;
+
+        .space-email{
+                margin-right: 60px;
+            } 
+            
+        .space-ph{
+            margin-right: 35px;
+        }
+        .space-addr{
+            margin-right: 10px;
+        }
+        }
     }
-}
