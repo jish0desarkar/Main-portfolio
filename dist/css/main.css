@@ -72,15 +72,13 @@ nav {
 .bio {
   display: inline-block;
   margin-left: 27vw;
-  margin-top: 18vh;
   overflow-x: hidden; }
   .bio .name {
     font-size: 10rem;
+    margin-top: 18vh;
     letter-spacing: 3px !important;
     font-family: "Saira Extra Condensed", sans-serif;
-    font-weight: 900;
-    margin-bottom: 0;
-    padding: 0; }
+    font-weight: 900; }
   .bio .addr {
     margin-top: 0rem !important;
     font-size: 2rem;
@@ -218,3 +216,38 @@ span {
     max-width: 60vw;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 10vh; }
+
+.project-div {
+  margin-left: 28vw;
+  display: inline-block;
+  margin-top: 10vh; }
+  .project-div .project-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    margin-bottom: 3vh;
+    font-size: 6rem;
+    font-weight: 600; }
+  .project-div .project-details-div .project-subheading {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    margin-top: 8vh;
+    font-weight: 700; }
+  .project-div .project-firm {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1vh;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7); }
+  .project-div .dur {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: #bd5050;
+    font-size: 1.5rem;
+    margin-top: 1.5vh; }
+  .project-div .details {
+    width: 60vw;
+    font-family: "ZCOOL XiaoWei", serif;
+    margin-top: 5vh;
+    padding-bottom: 8vh;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    letter-spacing: 2px; }

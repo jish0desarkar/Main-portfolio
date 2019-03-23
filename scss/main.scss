@@ -60,17 +60,16 @@ nav{
 .bio{
     display: inline-block;
     margin-left: 27vw;
-    margin-top: 18vh;
     overflow-x: hidden;
     
     .name{
         
         font-size: 10rem;
+        
+        margin-top: 18vh;
         letter-spacing: 3px !important;
         font-family: $header-font;
         font-weight: 900;
-        margin-bottom: 0;
-        padding: 0;
 
     }
 
@@ -285,3 +284,56 @@ span
             margin-top: 10vh;
         }
     }
+
+
+    //PROJECTS
+
+    .project-div{
+        margin-left: 28vw;
+        display: inline-block;
+        margin-top: 10vh;
+        .project-heading{
+            font-family: $header-font;
+        margin-bottom: 3vh;
+        font-size: 6rem;
+        font-weight: 600;
+        }
+        .project-details-div{
+            .project-subheading{
+                font-family: $subheading-font;
+                font-size: 2rem;
+                margin-top: 8vh;
+    
+                font-weight: 700;
+            }
+    }
+
+
+    .project-firm   {
+        font-family: $subheading-font;
+        font-size: 1.5rem;
+        margin-top: 1vh;
+        font-weight: 500;
+        color: rgba($color: black, $alpha: .7);
+    }
+
+    .dur{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 500;
+        color: $duration_color;
+        font-size: 1.5rem;
+        margin-top: 1.5vh;
+    }
+
+    .details{
+        width: 60vw;    
+        font-family: $text-font;
+        margin-top: 5vh;
+        padding-bottom: 8vh;
+        color: rgba($color: black, $alpha: .5);
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+
+    }
+}
+
