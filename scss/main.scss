@@ -85,7 +85,7 @@ nav{
     .para{
         margin-top: 8vh;
         font-family: $text-font;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: rgba($color: black, $alpha: .5);
     }
 }
@@ -256,7 +256,32 @@ span
             margin-right: 35px;
         }
         .space-addr{
-            margin-right: 10px;
+            margin-right: 10px; 
         }
+        }
+    }
+
+
+    //Interests
+
+    .interests-div{
+
+        margin-left: 28vw;
+        display: inline-block;
+        margin-top: 10vh;
+
+        .interests-heading{
+        font-family: $header-font;
+        margin-bottom: 3vh;
+        font-size: 6rem;
+        font-weight: 600;
+        }
+
+        .interest-details{
+            font-family: $text-font;
+            font-size: 1.5rem;
+            max-width: 60vw;
+            color: rgba($color: black, $alpha: .5);
+            margin-top: 10vh;
         }
     }

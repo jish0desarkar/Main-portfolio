@@ -2,6 +2,46 @@
   padding: 0;
   margin: 0; }
 
+.animated.delay:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s; }
+
+.animated.delay:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+.animated.delay:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+.animated.delay:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+.animated.delay:nth-child(5) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+.animated.delay:nth-child(6) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
+
+.animated.delay:nth-child(7) {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s; }
+
+.animated.delay:nth-child(8) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s; }
+
+.animated.delay:nth-child(9) {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s; }
+
+.animated.delay:nth-child(10) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
 nav {
   width: 23vw;
   height: 100vh;
@@ -32,7 +72,8 @@ nav {
 .bio {
   display: inline-block;
   margin-left: 27vw;
-  margin-top: 18vh; }
+  margin-top: 18vh;
+  overflow-x: hidden; }
   .bio .name {
     font-size: 10rem;
     letter-spacing: 3px !important;
@@ -49,7 +90,7 @@ nav {
   .bio .para {
     margin-top: 8vh;
     font-family: "ZCOOL XiaoWei", serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.5); }
 
 span {
@@ -146,9 +187,34 @@ span {
   margin-top: 10vh; }
   .contact-div .contact-heading {
     font-family: "Saira Extra Condensed", sans-serif;
-    margin-bottom: 3vh;
+    margin-bottom: 12vh;
     font-size: 6rem;
     font-weight: 600;
     letter-spacing: 2px; }
   .contact-div .email {
-    font-family: "Ubuntu", sans-serif; }
+    font-family: "Ubuntu", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7vh;
+    font-size: 2rem; }
+    .contact-div .email .space-email {
+      margin-right: 60px; }
+    .contact-div .email .space-ph {
+      margin-right: 35px; }
+    .contact-div .email .space-addr {
+      margin-right: 10px; }
+
+.interests-div {
+  margin-left: 28vw;
+  display: inline-block;
+  margin-top: 10vh; }
+  .interests-div .interests-heading {
+    font-family: "Saira Extra Condensed", sans-serif;
+    margin-bottom: 3vh;
+    font-size: 6rem;
+    font-weight: 600; }
+  .interests-div .interest-details {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 1.5rem;
+    max-width: 60vw;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10vh; }
