@@ -337,3 +337,37 @@ span
     }
 }
 
+//Media queries
+
+@media (max-width : 800px) {
+
+    body {
+        background-color: black;
+    }
+
+
+    .menu-tab{
+
+        width: 90px;
+        height: 70px;
+        position: fixed;
+        z-index: 100;
+        top: 0px;
+        left: 0px;
+        cursor: pointer;
+        transition: all .6s ease-in-out;
+        
+        div{
+          width: 33px;
+          height: 4px;
+          background-color: $black;
+          display: block;
+          margin: 5px 28px;
+          transition: all .6s ease-in-out;
+          
+          &:nth-child(1){
+            margin-top: 20px;
+          }
+        }/*end of div*/
+      }/*end of menu-tab*/
+}

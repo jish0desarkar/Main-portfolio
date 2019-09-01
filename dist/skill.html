@@ -14,8 +14,13 @@
 <body>
 
      <!--Navbar-->
-
-     <nav id="navbar" class="nav">
+     <div class="menu-tab">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+        </div>
+    
+        <nav id="navbar" class="nav menu-hide">
             <ul>
                 <li class="nav-items animated delay fadeInLeft"><a href="index.html">ABOUT</a></li>
                 <li class="nav-items animated delay fadeInLeft"><a  href="exp.html">EXPERIENCE</a></li>
@@ -47,17 +52,18 @@
             </div>
 
             <h2 class="skill-subheading animated zoomIn">Programming Languages</h2>
-            <div class="language animated zoomIn">
-                <h2 class="lang-itmes">C</h2>
-                <h2 class="lang-itmes">C++</h2>
-                <h2 class="lang-itmes">Java</h2>
-                <h2 class="lang-itmes">Python</h2>
+            <div class="language">
+                <h2 class="lang-itmes animated delay fadeInLeft">C</h2>
+                <h2 class="lang-itmes animated delay fadeInLeft">C++</h2>
+                <h2 class="lang-itmes animated delay fadeInLeft">Java</h2>
+                <h2 class="lang-itmes animated delay fadeInLeft">Python</h2>
             </div>
 
         </div>
 
 
 
-
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="script/app.js"></script>
 </body>
 </html>

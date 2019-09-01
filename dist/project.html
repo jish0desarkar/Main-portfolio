@@ -13,8 +13,13 @@
 </head>
 <body>
    
-    <!--Navbar-->
-    <nav id="navbar" class="nav">
+    <!--Navbar--><div class="menu-tab">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+    </div>
+
+    <nav id="navbar" class="nav menu-hide">
         <ul>
             <li class="nav-items animated delay fadeInLeft"><a href="index.html">ABOUT</a></li>
             <li class="nav-items animated delay fadeInLeft"><a href="exp.html">EXPERIENCE</a></li>
@@ -37,10 +42,10 @@
             <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, laudantium. Consectetur, sapiente nemo. Consequuntur delectus cupiditate repellendus, asperiores temporibus enim.</p>
         </div>
          <div class="project-details-div animated zoomIn delay">
-                <h1 class="project-subheading">Discount Android App for SIMS Hospital</h1>
+                <h1 class="project-subheading">Android App for SIMS Hospital</h1>
                 <h2 class="project-firm">SIMS Hospital - VDP</h2>
-                <h2>March 2019 - March 2019</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, laudantium. Consectetur, sapiente nemo. Consequuntur delectus cupiditate repellendus, asperiores temporibus enim.</p>
+                <h2 class="dur">March 2019 - March 2019</h2>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, laudantium. Consectetur, sapiente nemo. Consequuntur delectus cupiditate repellendus, asperiores temporibus enim.</p>
          </div>
          <div class="project-details-div animated zoomIn delay">
             <h1 class="project-subheading">Handwritten Text Recognition using CNN and KNN</h1>
@@ -59,6 +64,7 @@
 
 
 
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="script/app.js"></script>
 </body>
 </html>
