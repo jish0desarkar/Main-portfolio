@@ -254,7 +254,11 @@ span {
 
     /*media */
 
-    @media (max-width : 800px){
+    @media (max-width : 1000px){
+        
+    body{
+        max-width:100%;    
+        }
 
      .bio .name{
         font-size: 2.5rem;
@@ -396,9 +400,8 @@ span {
       
       /*end of menu-tab*/
       .menu-tab.active {
-        left: 345px;
+        left: 310px;
         transition: all 600ms ease-in-out;
-        background-color: rgba(255, 255, 255, 0.2);
       }
       .menu-tab.active #one {
         -webkit-transform: translateY(9px) rotate(-135deg);
@@ -419,8 +422,8 @@ span {
       
       .menu-hide {
         background-color: #df5c05;
-        width: 100px;
-        left: -100px;
+        width: 100%;
+        left: -100%;
         height: 100vh;
         position: fixed;
         z-index: 10;
@@ -454,7 +457,7 @@ span {
       /*end of menu-hide*/
       .menu-hide.show {
         left: 0px;
-        background-color: rgb(223, 92, 5);
+        background-color: rgba(223, 92, 5, 0.88);
         transition: all .6s ease-in-out;
       }
       
